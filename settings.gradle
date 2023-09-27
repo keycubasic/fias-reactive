@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        repositories {
+            mavenCentral()
+            gradlePluginPortal()
+        }
+    }
+    plugins {
+        id "${quarkusPluginId}" version "${quarkusPluginVersion}"
+        id 'com.github.sherter.google-java-format' version "${googleJavaFormatPluginVersion}"
+    }
+    
+}
+
+rootProject.name='fias-reactive'
